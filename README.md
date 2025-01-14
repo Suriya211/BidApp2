@@ -1,59 +1,54 @@
-# AuctionBazaar
+# BidNow: Real-Time Auction Experience
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+## Overview
+Welcome to **BidNow**, a real-time auction platform designed to provide seamless and engaging bidding experiences for users. This application allows bidders and auctioneers to interact in real time, making online auctions faster, transparent, and efficient.
 
-## Development server
+## Features
+- **User Roles:**
+  - Admin: Manages platform operations.
+  - Bidder: Participates in auctions to place bids.
+  - Auctioneer: Hosts auctions and sets up items for bidding.
+  - Note: A single user can act as both a bidder and an auctioneer.
 
-To start a local development server, run:
+- **Key Functionalities:**
+  - Real-time bidding updates.
+  - Item categorization for easier navigation.
+  - Secure user authentication and role management.
 
-```bash
-ng serve
-```
+## Technologies Used
+- **Frontend:** Angular 18
+- **Backend:** Node.js with Express.js (running on port 5000)
+- **Database:** MongoDB
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Installation
+### Prerequisites
+Ensure you have the following installed on your system:
+- Node.js (v16 or above)
+- npm (v7 or above)
+- MongoDB
 
-## Code scaffolding
+### Steps
+1. Navigate to the backend directory and install dependencies:
+   ```bash
+   cd auction-backend
+   npm install
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Start the backend server:
+   ```bash
+   npm start
+   ```
 
-```bash
-ng generate component component-name
-```
+3. Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd ../Auction-Bazaar
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4. Start the frontend server:
+   ```bash
+   npm start
+   ```
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. Access the application at `http://localhost:4200`.
+6. Backend Server Runs at `http://localhost:5000`.
